@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summer Camp 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.svg" alt="Logo" />
+        <span>Summer Camp</span>
+      </a>
+
+      <button class="hamburger" aria-label="Toggle navigation" aria-controls="nav-links" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero reveal">
+    <h1 class="hero-title">Welcome to Our Summer Camp 2025</h1>
+    <p class="hero-subtitle">We learned coding, teamwork, and creativity. Explore our journey!</p>
+  </section>
+
+  <!-- Gallery Slideshow -->
+  <section class="content reveal">
+    <h2>Gallery</h2>
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <img src="assets/images/gallery1.svg" alt="Camp photo 1" />
+      </div>
+      <div class="slide fade">
+        <img src="assets/images/gallery2.svg" alt="Camp photo 2" />
+      </div>
+      <div class="slide fade">
+        <img src="assets/images/gallery3.svg" alt="Camp photo 3" />
+      </div>
+
+      <button class="prev" aria-label="Previous slide" data-direction="-1">❮</button>
+      <button class="next" aria-label="Next slide" data-direction="1">❯</button>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials reveal">
+    <h2>What Our Campers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <p>“I enjoyed building my first website!”</p>
+        <h4>- David</h4>
+      </div>
+      <div class="testimonial">
+        <p>“Coding with my friends was so much fun.”</p>
+        <h4>- Amira</h4>
+      </div>
+      <div class="testimonial">
+        <p>“I liked learning how to style pages with CSS.”</p>
+        <h4>- Chinedu</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats / Counters -->
+  <section class="stats reveal" id="stats">
+    <div class="stat-card">
+      <h3 class="counter" data-target="7">0</h3>
+      <p>Days of Learning</p>
+    </div>
+    <div class="stat-card">
+      <h3 class="counter" data-target="20">0</h3>
+      <p>Projects Created</p>
+    </div>
+    <div class="stat-card">
+      <h3 class="counter" data-target="100">0</h3>
+      <p>Percent Fun!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2025 Summer Camp Kids • Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
