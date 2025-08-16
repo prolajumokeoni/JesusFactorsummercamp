@@ -41,7 +41,7 @@ html, body {
 }
 .nav-links a:hover, .nav-links a.active {
   background-color: #1a1ab3; 
-  
+  font-weight: bold;
 }
 
 /* ---------- Hero ---------- */
