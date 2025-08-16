@@ -18,11 +18,17 @@ html, body {
 }
 
 /* ---------- Navbar ---------- */
-.site-header { position: sticky; top: 0; z-index: 50; background: var(--brand); }
+.site-header { position: sticky; 
+  top: 0; z-index: 50; 
+  
+  background-color:#05048C;
+  
+}
 .navbar {
   display: flex; align-items: center; justify-content: space-between;
   padding: 12px 16px; max-width: 1100px; margin: 0 auto;
 }
+
 .brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 700; }
 .brand img { width: 32px; height: 32px; }
 
@@ -33,14 +39,25 @@ html, body {
 .nav-links a {
   text-decoration: none; color: #fff; padding: 8px 12px; border-radius: 6px; transition: background .25s;
 }
-.nav-links a:hover, .nav-links a.active { background: var(--brand-2); }
+.nav-links a:hover, .nav-links a.active {
+  background-color: #1a1ab3; 
+  font-weight: bold;
+}
 
 /* ---------- Hero ---------- */
 .hero {
   text-align: center; padding: 80px 20px;
   background: linear-gradient(135deg, var(--muted), #CDE6F5);
 }
-.hero-title { font-size: 2.4rem; margin-bottom: 12px; color: var(--brand); }
+.hero-title { font-size: 2.4rem;
+   margin-bottom: 12px; 
+   color: #fff;
+   background-color: #05048C;
+  }
+  .section .hero .reveal .reveal.visible{
+  opacity: 1; transform: translateY(0);
+  background-color: #FFFBE7;
+  }
 .hero-subtitle { font-size: 1.1rem; }
 
 /* ---------- Sections ---------- */
@@ -111,6 +128,7 @@ html, body {
 position: fixed; 
 bottom: 0;
  width: 100%;
+ background-color: #05048C;
 }
 
 /* ---------- Reveal on scroll ---------- */
@@ -126,3 +144,5 @@ bottom: 0;
   .nav-links.open { display: flex; }
   .hamburger { display: inline-block; }
 }
+
+
